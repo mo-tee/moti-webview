@@ -34,7 +34,7 @@ const App = () => {
       <WebView
         ref={webViewRef}
         style={styles.webView}
-        source={{ uri: "http://10.150.2.232:3000" }}
+        source={{ uri: "https://motist.vercel.app" }}
         allowsBackForwardNavigationGestures={true}
         allowsFullscreenVideo={true}
         bounces={false}
